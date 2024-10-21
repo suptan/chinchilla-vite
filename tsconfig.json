@@ -1,4 +1,14 @@
 {
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
