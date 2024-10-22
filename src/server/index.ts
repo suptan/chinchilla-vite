@@ -14,24 +14,14 @@ async function handleProducts(request: Request)  {
         case 'GET': {
             const pageHTML = await axios.get("https://chinchillagallery.royalchinchilla.com/category/wait/wisteria/")
             const $ = cheerio.load(pageHTML.data)
-            const detailURLs:string[] = []
-
-            $(".grid_post-box").each((_, element) => { 
-                const dataHref = $(element).children().attr("data-href")
-
-                if (!dataHref) {
-                    return
-                }
-
-                detailURLs.push(dataHref)
-            })
+            const detailURLs = $(".grid_post-box").map((_, element) => $(element).children().attr("data-href")).filter(Boolean)
             // console.log("🚀 ~ $ ~ detailURL:", detailURLs)
-            // const detailHTMLs = await Promise.all(detailURLs.map(normalizeDetail))
-            const detailHTMLs = await normalizeDetail(detailURLs[0])
+            const detailHTMLs = await Promise.all(detailURLs.map((_, ele) => normalizeDetail(ele)))
+            // const detailHTMLs = await normalizeDetail(detailURLs[0])
 
-            console.log("🚀 ~ handleProducts ~ detailHTMLs:", detailHTMLs)
+            // console.log("🚀 ~ handleProducts ~ detailHTMLs:", detailHTMLs)
 
-            return new Response(JSON.stringify({status: 'success',data:{}}), {
+            return new Response(JSON.stringify({status: 'success',data: { products: [detailHTMLs] }}), {
                 headers: { 'Content-Type': 'application/json' },
             });
         }
@@ -45,26 +35,45 @@ async function normalizeDetail(url: string)  {
     const id = paths[paths.length - 2]
     const key = `rycw-${id}`
 
-    // if (memoryCache.hasItem(key)) {
-    //     return memoryCache.retrieveItemValue(key)
-    // }
-let $: cheerio.CheerioAPI
     if (memoryCache.hasItem(key)) {
-        $ = memoryCache.retrieveItemValue(key)
-    } else {
-     
-    const pageHTML = await axios.get(url)
-    $ = cheerio.load(pageHTML.data)
-    memoryCache.storePermanentItem(key, $)   
+        console.log('cache',url)
+        return memoryCache.retrieveItemValue(key)
     }
-
+// let $: cheerio.CheerioAPI
+//     if (memoryCache.hasItem(key)) {
+//     console.log('cahe',url)
+//         $ = memoryCache.retrieveItemValue(key)
+//     } else {
+//      console.log('fetdch',url);
+     
+//     const pageHTML = await axios.get(url)
+//     $ = cheerio.load(pageHTML.data)
+//     memoryCache.storePermanentItem(key, $)   
+//     }
+    const pageHTML = await axios.get(url)
+    console.log('fetch',url)
+    const $ = cheerio.load(pageHTML.data)
+    memoryCache.storePermanentItem(key, $)   
     const title = $(".single-post-title").text()
+    const updatedAt = $('.single-post-date').attr('datetime')
     const body = $(".single-post-main")
-    const color = body.find('table > tr[2] > td[1]').text();
-    const gender = body.find('table > tr[3] > td[1]').text();
-    const birthday = body.find('table > tr[4] > td[1]').text();
-    const price = body.find('table > tr[7] > td[1]').text();
+    const color = body.find('table > tbody > tr:nth-child(3) > td:nth-child(2)').text();
+    const gender = body.find('table > tbody > tr:nth-child(4) > td:nth-child(2)').text();
+    const birthday = body.find('table > tbody > tr:nth-child(5) > td:nth-child(2)').text();
+    const price = body.find('table > tbody > tr:nth-child(6) > td:nth-child(2)').text();
+    const gallery = $('.wp-block-gallery')
+    const album: { src?: string }[] = []
+    
+    $(gallery).children().each((_, element) => {
+        const img = $(element).find('img')
+
+        album.push({
+            src: img.attr('src') || img.attr('data-src'),
+        })
+    })
+
     const model ={
+        album,
         id,
         birthday,
         color,
@@ -73,10 +82,10 @@ let $: cheerio.CheerioAPI
         // rcno,
         source: 'Royal Chin Wis',
         title,
-        // updatedAt,
+        updatedAt,
     } 
-    //// memoryCache.storePermanentItem(key, model)
-    console.log("🚀 ~ normalizeDetail ~ model:", model)
+    memoryCache.storePermanentItem(key, model)
+    // console.log("🚀 ~ normalizeDetail ~ model:", model)
 
     return model
 }
@@ -118,7 +127,4 @@ const server = Bun.serve({
     }
 });
   
-  console.log(`Listening on http://localhost:${server.port} ...`);
-
-
-//   concurrently wait-on cheerio axios memory-cache-node @types/bun
+console.log(`Listening on http://localhost:${server.port} ...`);
