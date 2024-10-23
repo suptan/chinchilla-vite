@@ -1,0 +1,31 @@
+{
+    "version": 2,
+    "env": {
+    },
+    "builds": [
+      {
+        "src": ".local/bun/index.js",
+        "use": "@vercel/node",
+        "config": { "includeFiles": [".local/bun/**"] }
+      },
+      {
+        "src": ".local/vite/dist/**",
+        "use": "@vercel/static",
+        "config": { "includeFiles": [".local/vite/dist/**"] }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": ".local/bun/index.js"
+      },
+      {
+        "src": "/",
+        "dest": ".local/vite/dist/index.html"
+      },
+      {
+        "src": "/(.+)",
+        "dest": ".local/vite/dist/$1"
+      }
+    ]
+  }
