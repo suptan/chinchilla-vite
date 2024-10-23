@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently -n vite,api \"npm run vite:dev\" \"npm run api:dev\"",
-    "build": "tsc -b && bunx --bun vite build",
-    "start": "node ./.local/express/dist/api.js",
+    "build": "npm run vite:build && npm run api:build",
+    "start": "node ./.local/bun/index.js",
     "lint": "eslint .",
+    "vite:build": "tsc -b && bunx --bun vite build --emptyOutDir",
     "vite:dev": "bunx --bun vite --port 9000",
     "vite:dev:wait": "wait-on http://localhost:9001/api/v1/health && vite:dev",
+    "api:build": "bun build --entrypoints src/server/index.ts --outdir .local/bun --splitting",
     "api:dev": "bun --hot src/server/index.ts",
     "tsc": "tsc --pretty",
     "preview": "vite preview"
@@ -45,6 +47,7 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.7.0",
     "vite": "^5.4.8",
+    "vite-plugin-pages": "^0.32.3",
     "vite-tsconfig-paths": "^5.0.1",
     "wait-on": "^8.0.1"
   }
