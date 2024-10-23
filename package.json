@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "concurrently -n vite,api \"npm run vite:dev\" \"npm run api:dev\"",
     "build": "npm run vite:build && npm run api:build",
-    "start": "node ./.local/bun/index.js",
+    "start": "bun ./.local/bun/index.js",
     "lint": "eslint .",
     "vite:build": "tsc -b && bunx --bun vite build --emptyOutDir",
     "vite:dev": "bunx --bun vite --port 9000",
