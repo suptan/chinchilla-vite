@@ -1,8 +1,10 @@
 import { MemoryCache } from 'memory-cache-node';
 import axios from "axios";
 import * as cheerio from "cheerio";
+import { landpage } from './landpage';
+import { chi1 } from './chi1';
 
-const itemsExpirationCheckIntervalInSecs = 60 * 60;
+const itemsExpirationCheckIntervalInSecs = 24 * 60 * 60;
 const maxItemCount = 1000000;
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const memoryCache = new MemoryCache<string, any>(itemsExpirationCheckIntervalInSecs, maxItemCount);
@@ -12,16 +14,17 @@ async function handleProducts(request: Request)  {
     const { method } = request;
     switch (method) {
         case 'GET': {
-            const pageHTML = await axios.get("https://chinchillagallery.royalchinchilla.com/category/wait/wisteria/")
-            const $ = cheerio.load(pageHTML.data)
+            // const pageHTML = await axios.get("https://chinchillagallery.royalchinchilla.com/category/wait/wisteria/")
+            // const $ = cheerio.load(pageHTML.data)
+            const $ = cheerio.load(landpage)
             const detailURLs = $(".grid_post-box").map((_, element) => $(element).children().attr("data-href")).filter(Boolean)
             // console.log("🚀 ~ $ ~ detailURL:", detailURLs)
-            const detailHTMLs = await Promise.all(detailURLs.map((_, ele) => normalizeDetail(ele)))
+            const detailHTMLs = await Promise.all(detailURLs.slice(0,3).map((_, ele) => normalizeDetail(ele)))
             // const detailHTMLs = await normalizeDetail(detailURLs[0])
 
             // console.log("🚀 ~ handleProducts ~ detailHTMLs:", detailHTMLs)
 
-            return new Response(JSON.stringify({status: 'success',data: { products: [detailHTMLs] }}), {
+            return new Response(JSON.stringify({status: 'success',data: detailHTMLs }), {
                 headers: { 'Content-Type': 'application/json' },
             });
         }
@@ -32,7 +35,7 @@ async function handleProducts(request: Request)  {
 
 async function normalizeDetail(url: string)  {
     const paths = url.split('/')
-    const id = paths[paths.length - 2]
+    const id = +paths[paths.length - 2]
     const key = `rycw-${id}`
 
     if (memoryCache.hasItem(key)) {
@@ -50,9 +53,10 @@ async function normalizeDetail(url: string)  {
 //     $ = cheerio.load(pageHTML.data)
 //     memoryCache.storePermanentItem(key, $)   
 //     }
-    const pageHTML = await axios.get(url)
+    // const pageHTML = await axios.get(url)
+    // const $ = cheerio.load(pageHTML.data)
     console.log('fetch',url)
-    const $ = cheerio.load(pageHTML.data)
+    const $ = cheerio.load(chi1)
     memoryCache.storePermanentItem(key, $)   
     const title = $(".single-post-title").text()
     const updatedAt = $('.single-post-date').attr('datetime')
@@ -60,7 +64,7 @@ async function normalizeDetail(url: string)  {
     const color = body.find('table > tbody > tr:nth-child(3) > td:nth-child(2)').text();
     const gender = body.find('table > tbody > tr:nth-child(4) > td:nth-child(2)').text();
     const birthday = body.find('table > tbody > tr:nth-child(5) > td:nth-child(2)').text();
-    const price = body.find('table > tbody > tr:nth-child(6) > td:nth-child(2)').text();
+    const price = body.find('table > tbody > tr:nth-child(8) > td:nth-child(2)').text();
     const gallery = $('.wp-block-gallery')
     const album: { src?: string }[] = []
     
@@ -80,7 +84,7 @@ async function normalizeDetail(url: string)  {
         gender,
         price,
         // rcno,
-        source: 'Royal Chin Wis',
+        source: 'Wisteria',
         title,
         updatedAt,
     } 

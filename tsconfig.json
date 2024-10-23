@@ -8,6 +8,14 @@
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "noEmit": true,
+    "sourceMap": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "typeRoots": ["./src/typings/*.d.ts", "./node_modules/@types"],
+    "skipLibCheck": true
   },
   "files": [],
   "references": [
