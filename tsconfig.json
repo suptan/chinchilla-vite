@@ -1,10 +1,13 @@
 {
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
-    "target": "es2022",
-    "jsx": "preserve",
+    "lib": ["ESNext", "DOM"],
+    "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "bundler",
     "sourceMap": true,
     "outDir": "./.local/vite/dist",
     "rootDir": ".",
@@ -22,8 +25,8 @@
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "noUnusedParameters": false,
-    "types": ["node", "jest"],
     "typeRoots": ["./src/typings/*.d.ts", "./node_modules/@types"],
+    "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
