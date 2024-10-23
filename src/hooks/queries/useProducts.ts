@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query"
-import axios, { AxiosResponse } from "axios"
+import axios from "axios"
 import { NUMERIC_REGEXP } from "../../utils/regex"
 
 interface ApiResponse<T> {
@@ -19,8 +19,9 @@ export interface ProductResponse {
   updatedAt: string
 }
 
-export interface Product extends Omit<ProductResponse, 'birthday' | 'updatedAt'> {
+export interface Product extends Omit<ProductResponse, 'updatedAt'> {
   // birthday: Date
+  displayPrice: string
   updatedAt: Date
 }
 
@@ -40,7 +41,7 @@ export function useProducts() {
         // birthday: new Date(item.birthday),
         displayPrice: item.price.match(NUMERIC_REGEXP)?.join(''), 
         updatedAt: new Date(item.updatedAt),
-      }))
+      } as Product))
     }
   })
 }

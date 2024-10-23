@@ -1,5 +1,5 @@
 import { MemoryCache } from 'memory-cache-node';
-import axios from "axios";
+// import axios from "axios";
 import * as cheerio from "cheerio";
 import { landpage } from './landpage';
 import { chi1 } from './chi1';
