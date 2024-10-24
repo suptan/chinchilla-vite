@@ -13,7 +13,7 @@
     "vite:build": "tsc -b && bunx --bun vite build",
     "vite:dev": "bunx --bun vite --port 9000",
     "vite:dev:wait": "wait-on http://localhost:9001/api/v1/health && vite:dev",
-    "api:build": "bun build --entrypoints src/server/express.js --minify-whitespace --minify-syntax --target bun --outfile .vercel/express/server.js",
+    "api:build": "bun build --entrypoints src/server/express.js --minify-whitespace --minify-syntax --target bun --outfile .local/express/server.js",
     "api:dev": "bun --hot src/server/express.js",
     "tsc": "tsc --pretty",
     "preview": "vite preview"
@@ -54,7 +54,6 @@
     "typescript-eslint": "^8.7.0",
     "vite": "^5.4.8",
     "vite-plugin-pages": "^0.32.3",
-    "vite-plugin-vercel": "^9.0.3",
     "vite-tsconfig-paths": "^5.0.1",
     "wait-on": "^8.0.1"
   }

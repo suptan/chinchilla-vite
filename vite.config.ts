@@ -29,8 +29,7 @@ export default defineConfig({
     ...(process.env.NODE_ENV === 'development' ? { global: "window" } : {}),
   },
   build: {
-    outDir: ".output/vite/dist",
-    emptyOutDir: true,
+    outDir: "../.local/vite/dist",
     assetsDir: "assets",
     sourcemap: true,
     manifest: true,
