@@ -27,7 +27,8 @@ export default defineConfig({
     ...(process.env.NODE_ENV === 'development' ? { global: "window" } : {}),
   },
   build: {
-    outDir: "../.local/vite/dist",
+    // outDir: "../.local/vite/dist",
+    outDir: ".vercel/output/vite/dist",
     assetsDir: "assets",
     sourcemap: true,
     manifest: true,
@@ -39,4 +40,7 @@ export default defineConfig({
       },
     },
   },
+  vercel: {
+    // outDir: '../.vercel/output'
+  }
 })
