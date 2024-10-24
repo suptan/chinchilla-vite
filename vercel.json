@@ -4,28 +4,28 @@
   },
   "builds": [
     {
-      "src": ".vercel/express/server.js",
+      "src": ".output/express/server.js",
       "use": "@vercel/node",
-      "config": { "includeFiles": [".vercel/express/**"] }
+      "config": { "includeFiles": [".output/express/**"] }
     },
     {
-      "src": ".vercel/vite/dist/**",
+      "src": ".output/vite/dist/**",
       "use": "@vercel/static",
-      "config": { "includeFiles": [".vercel/vite/dist/**"] }
+      "config": { "includeFiles": [".output/vite/dist/**"] }
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": ".vercel/express/server.js"
+      "dest": ".output/express/server.js"
     },
     {
       "src": "/",
-      "dest": ".vercel/vite/dist/index.html"
+      "dest": ".output/vite/dist/index.html"
     },
     {
       "src": "/(.+)",
-      "dest": ".vercel/vite/dist/$1"
+      "dest": ".output/vite/dist/$1"
     }
   ]
 }
