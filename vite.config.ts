@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import tsconfigPaths from 'vite-tsconfig-paths';
-import Pages from "vite-plugin-pages";
+// import Pages from "vite-plugin-pages";
+import vercel from 'vite-plugin-vercel';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -9,10 +10,7 @@ export default defineConfig({
   plugins: [
     react(),
     tsconfigPaths(),
-    Pages({
-      pagesDir: [{ dir: "pages", baseRoute: "" }],
-      extensions: ["tsx"],
-    }),
+    vercel(),
   ],
   server: {
     proxy: {

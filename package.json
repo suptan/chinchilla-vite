@@ -7,6 +7,7 @@
     "dev": "concurrently -n vite,api \"npm run vite:dev\" \"npm run api:dev\"",
     "build": "npm run vite:build && npm run api:build",
     "start": "NODE_ENV=production bun ./.local/bun/server.js",
+    "start:window": "set NODE_ENV=production && bun ./.local/bun/server.js",
     "lint": "eslint .",
     "vite:build": "tsc -b && bunx --bun vite build --emptyOutDir",
     "vite:dev": "bunx --bun vite --port 9000",
@@ -50,6 +51,7 @@
     "typescript-eslint": "^8.7.0",
     "vite": "^5.4.8",
     "vite-plugin-pages": "^0.32.3",
+    "vite-plugin-vercel": "^9.0.3",
     "vite-tsconfig-paths": "^5.0.1",
     "wait-on": "^8.0.1"
   }
