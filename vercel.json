@@ -2,22 +2,12 @@
     "version": 2,
     "env": {
     },
-    "builds": [
-      {
-        "src": ".local/bun/index.js",
-        "use": "@vercel/node",
-        "config": { "includeFiles": [".local/bun/**"] }
-      },
-      {
-        "src": ".local/vite/dist/**",
-        "use": "@vercel/static",
-        "config": { "includeFiles": [".local/vite/dist/**"] }
-      }
-    ],
+    "installCommand": "curl -fsSL https://bun.sh/install | bash && ~/.bun/bin/bun install --frozen-lockfile",
+    "buildCommand": "~/.bun/bin/bun run build",
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": ".local/bun/index.js"
+        "dest": ".local/bun/server.js"
       },
       {
         "src": "/",

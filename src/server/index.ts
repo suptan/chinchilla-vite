@@ -1,7 +1,9 @@
 import { MemoryCache } from 'memory-cache-node';
 // import axios from "axios";
 import * as cheerio from "cheerio";
+import { Elysia } from 'elysia'
 import { landpage } from './landpage';
+import { cors } from "@elysiajs/cors";
 import { chi1 } from './chi1';
 
 const itemsExpirationCheckIntervalInSecs = 24 * 60 * 60;
@@ -10,10 +12,10 @@ const maxItemCount = 1000000;
 const memoryCache = new MemoryCache<string, any>(itemsExpirationCheckIntervalInSecs, maxItemCount);
 
 // https://github.com/omniti-labs/jsend
-async function handleProducts(request: Request)  {
-    const { method } = request;
-    switch (method) {
-        case 'GET': {
+async function handleProducts()  {
+    // const { method } = request;
+    // switch (method) {
+    //     case 'GET': {
             // const pageHTML = await axios.get("https://chinchillagallery.royalchinchilla.com/category/wait/wisteria/")
             // const $ = cheerio.load(pageHTML.data)
             const $ = cheerio.load(landpage)
@@ -24,13 +26,11 @@ async function handleProducts(request: Request)  {
 
             // console.log("🚀 ~ handleProducts ~ detailHTMLs:", detailHTMLs)
 
-            return new Response(JSON.stringify({status: 'success',data: detailHTMLs }), {
-                headers: { 'Content-Type': 'application/json' },
-            });
-        }
-        default:
-            return new Response('Not Found', { status: 404 });
-    }
+            return {status: 'success',data: detailHTMLs };
+    //     }
+    //     default:
+    //         return new Response('Not Found', { status: 404 });
+    // }
 }
 
 async function normalizeDetail(url: string)  {
@@ -94,41 +94,66 @@ async function normalizeDetail(url: string)  {
     return model
 }
 
-function handleHealthCheck(request: Request) {
-    const { method } = request;
-    switch (method) {
-        case 'HEAD':
-        case 'GET':
-            console.log('yes');
-            
-            return new Response(JSON.stringify({ status: 'success', data: null }), {
-                headers: { 'Content-Type': 'application/json' },
-                status: 200,
-            });
-        default:
-            return new Response('Not Found', { status: 404 });
-    }
+function handleHealthCheck() {
+    console.log('yes');
+    
+    return new Response(JSON.stringify({ status: 'success', data: null }), {
+        headers: { 'Content-Type': 'application/json' },
+        status: 200,
+    });
 }
 
-const server = Bun.serve({
-    port: 9001,
-    fetch(request: Request) {
-        const { pathname } = new URL(request.url);
-        const domain = pathname.split('/')[3]
+// const server = Bun.serve({
+//     port: 9001,
+//     fetch(request: Request) {
+//         const { pathname } = new URL(request.url);
+//         const domain = pathname.split('/')[3]
 
-        // if (pathname === '/') {
-        //     return new Reposn
-        // }
+//         // if (pathname === '/') {
+//         //     return new Reposn
+//         // }
 
-        switch (domain) {
-            case 'products':
-                return handleProducts(request)
-            case 'health':
-                return handleHealthCheck(request)
-            default:
-                return new Response('Not Found', { status: 404 })
+//         switch (domain) {
+//             case 'products':
+//                 return handleProducts(request)
+//             case 'health':
+//                 return handleHealthCheck(request)
+//             default:
+//                 return new Response('Not Found', { status: 404 })
+//         }
+//     }
+// });
+// console.log(`Listening on http://localhost:${server.port} ...`);
+const app = new Elysia({
+    prefix: '/api'
+})
+    .use(cors())
+    .get('/', () => 'Hello World')
+    // .get('/api/v1', () => 'cc')
+    .group('/v1', (app) =>
+        app
+            .get('/products', () => handleProducts())
+            .get('/health', () => handleHealthCheck())
+    )
+    .onError(({ error, code,...rest }) => { 
+        console.log('ee',error,code,rest.path)
+        if (code === 'NOT_FOUND') {
+            return 'Route not found :('
         }
-    }
-});
+
+        console.error(error) 
+    })
+    .listen(9001)
   
-console.log(`Listening on http://localhost:${server.port} ...`);
+// app.use(cors());
+
+// app.get('/', () => {console.log('hi')})
+// app.get('/api/v1/products', handleProducts)
+// app.get('/api/v1/health', handleHealthCheck)
+// console.log('start');
+
+// app.listen(9001)
+
+console.log(
+    `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
+);
