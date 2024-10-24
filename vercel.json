@@ -1,3 +1,31 @@
 {
-  "version": 2
+  "version": 2,
+  "env": {
+  },
+  "builds": [
+    {
+      "src": ".vercel/express/server.js",
+      "use": "@vercel/node",
+      "config": { "includeFiles": [".vercel/express/**"] }
+    },
+    {
+      "src": ".vercel/vite/dist/**",
+      "use": "@vercel/static",
+      "config": { "includeFiles": [".vercel/vite/dist/**"] }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": ".vercel/express/server.js"
+    },
+    {
+      "src": "/",
+      "dest": ".vercel/vite/dist/index.html"
+    },
+    {
+      "src": "/(.+)",
+      "dest": ".vercel/vite/dist/$1"
+    }
+  ]
 }

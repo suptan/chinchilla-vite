@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import tsconfigPaths from 'vite-tsconfig-paths';
-// import Pages from "vite-plugin-pages";
-import vercel from 'vite-plugin-vercel';
+import Pages from "vite-plugin-pages";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -10,7 +9,10 @@ export default defineConfig({
   plugins: [
     react(),
     tsconfigPaths(),
-    vercel(),
+    Pages({
+      pagesDir: [{ dir: "pages", baseRoute: "" }],
+      extensions: ["tsx"],
+    }),
   ],
   server: {
     proxy: {
@@ -27,8 +29,8 @@ export default defineConfig({
     ...(process.env.NODE_ENV === 'development' ? { global: "window" } : {}),
   },
   build: {
-    // outDir: "../.local/vite/dist",
     outDir: ".vercel/output/vite/dist",
+    emptyOutDir: true,
     assetsDir: "assets",
     sourcemap: true,
     manifest: true,
@@ -40,7 +42,4 @@ export default defineConfig({
       },
     },
   },
-  vercel: {
-    // outDir: '../.vercel/output'
-  }
 })
