@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "concurrently -n vite,api \"bun run vite:dev\" \"bun run api:dev\"",
-    "build": "bun run vite:build && bun run api:build",
+    "dev": "concurrently -n vite,api \"npm run vite:dev\" \"npm run api:dev\"",
+    "build": "npm run vite:build && npm run api:build",
     "build:exp": "vite build",
     "start": "NODE_ENV=production node ./.vercel/express/server.js",
     "start:window": "set NODE_ENV=production && node ./.vercel/express/server.js",

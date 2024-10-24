@@ -2,6 +2,7 @@
   "version": 2,
   "env": {
   },
+  "installCommand": "bun install --frozen-lockfile",
   "builds": [
     {
       "src": ".local/express/server.js",
