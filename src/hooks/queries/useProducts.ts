@@ -1,4 +1,4 @@
-import { useQuery } from "@tanstack/react-query"
+import { useInfiniteQuery } from "@tanstack/react-query"
 import axios from "axios"
 import { NUMERIC_REGEXP } from "../../utils/regex"
 
@@ -30,15 +30,23 @@ export const productsKeys = {
 }
 
 export function useProducts() {
-  return useQuery({
+  return useInfiniteQuery({
     queryKey: productsKeys.all,
-    queryFn: ({ signal }) =>  axios.get<ApiResponse<ProductResponse[]>>('/api/v1/products', {signal}),
-    select: ({ data }) => data.data.map((item) => ({
-        ...item,
-        // birthday: new Date(item.birthday),
-        displayPrice: item.price.match(NUMERIC_REGEXP)?.join(''), 
-        updatedAt: new Date(item.updatedAt),
-      } as Product))
-    
+    queryFn: ({ signal, pageParam }) =>  axios.get<ApiResponse<ProductResponse[]>>('/api/v1/products', { signal, params: { pages: pageParam } }),
+    initialPageParam: 0,
+    getNextPageParam: (lastPage, allPages) => {
+      return lastPage.data.data.length ? allPages.length + 1 : undefined;
+    },
+    select: ({ pages }) => pages.reduce((acc, res) => {
+      res.data.data.forEach((item) => {
+          acc.push({
+            ...item,
+            // birthday: new Date(item.birthday),
+            displayPrice: item.price.match(NUMERIC_REGEXP)?.join('') || '', 
+            updatedAt: new Date(item.updatedAt),
+          })
+        })
+      return acc
+    }, [] as Product[])
   })
 }

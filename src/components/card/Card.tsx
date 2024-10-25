@@ -1,18 +1,37 @@
 import MaleLogo from "@/assets/male.svg";
 import FemaleLogo from "@/assets/female.svg";
 import { Product } from "@/hooks/queries/useProducts";
+import { useState } from "react";
 
 type CardProps = Product;
 
 function Card({ album, birthday, displayPrice, gender, title, source }: CardProps) {
   const genderLogo = gender === "男の子" ? MaleLogo : FemaleLogo;
   const enGender = gender === "男の子" ? "male" : "female";
+  const [mainImg, setMainImg] = useState<string | undefined>(album[0].src);
+
+  const handleGalleryClick = (i: number) => () => {
+    setMainImg(album[i].src);
+  };
 
   return (
     <article className="flex flex-col gap-2 border rounded-xl border-gray-500">
       <div className="flex flex-col gap-2 items-center">
         {album.length > 0 && (
-          <img className="rounded-t-xl" src={album[0].src} width="719" height="719" alt={title} />
+          <div className="flex flex-col gap-2 overflow-hidden">
+            <img className="rounded-t-xl" src={mainImg} width="719" height="719" alt={title} />
+            <figure className="flex gap-2 flex-1 overflow-x-auto">
+              {album.map(({ src }, i) => (
+                <img
+                  key={`gallery-${i}`}
+                  className="w-1/4"
+                  src={src}
+                  alt={title}
+                  onClick={handleGalleryClick(i)}
+                />
+              ))}
+            </figure>
+          </div>
         )}
         <div className="flex gap-2 p-2 items-center">
           <img

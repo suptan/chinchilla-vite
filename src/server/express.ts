@@ -2,10 +2,11 @@ import express from "express";
 import { MemoryCache } from 'memory-cache-node';
 import axios from "axios";
 import * as cheerio from "cheerio";
-import { landpage } from './landpage';
-import { chi1 } from './chi1';
-import { chi2 } from './chi2';
-import { chi3 } from './chi3';
+// import { landpage } from './landpage';
+// import { chi1 } from './chi1';
+// import { chi2 } from './chi2';
+// import { chi3 } from './chi3';
+// import { chino } from "./chino";
 
 const itemsExpirationCheckIntervalInSecs = 24 * 60 * 60;
 const maxItemCount = 1000000;
@@ -78,15 +79,27 @@ function mockFetchDetail(_:string, i:number) {
     return memoryCache.retrieveItemValue(key)
   }
 
-  const model = normalizeDetail(id, [chi1,chi2,chi3][i])
+  // const model = normalizeDetail(id, [chi1,chi2,chi3][i])
+  const model = { id }
   memoryCache.storePermanentItem(key, model)
 
   return model
 }
 
 router.get("/products", async function(req, res) {
-  // console.log("method", req.method);
-  const $ = cheerio.load(landpage)
+  console.log("method", req.method, req.params, req.query);
+  const { pages } = req.query
+  const pageUrl = `https://chinchillagallery.royalchinchilla.com/category/wait/wisteria/${Number(pages) ? `page/${pages}` : ''}`
+  console.log('url', pageUrl);
+  
+  const pageHTML = await axios.get(pageUrl)
+  const $ = cheerio.load(pageHTML.data)
+  // const $ = cheerio.load(Number(pages) === 3 ? chino : landpage)
+
+  if ($('notfofund_title').length) {
+    res.status(404).send({ status: 'failed', data:'Not Found'})
+  }
+
   const detailURLs = $(".grid_post-box").map((_, element) => $(element).children().attr("data-href")).filter(Boolean)
   // const detailHTMLs = await Promise.all(detailURLs.slice(0,3).map((_, ele) => mockFetchDetail(ele,_)))
   const detailHTMLs = await Promise.all(detailURLs.map((_, ele) => fetchDetail(ele)))
