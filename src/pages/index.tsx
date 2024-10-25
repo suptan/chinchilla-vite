@@ -8,11 +8,11 @@ import axios from "axios";
 
 function Home() {
   const { data } = useProducts();
-  const { data: lll } = useQuery({
+  useQuery({
     queryKey: ["ad"],
     queryFn: ({ signal }) => axios.get("/api/v1/health", { signal }),
   });
-  console.log("safd", lll);
+  // console.log("safd", lll);
 
   return (
     <section>

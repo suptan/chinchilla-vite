@@ -1,9 +1,11 @@
 import express from "express";
 import { MemoryCache } from 'memory-cache-node';
-// import axios from "axios";
+import axios from "axios";
 import * as cheerio from "cheerio";
 import { landpage } from './landpage';
 import { chi1 } from './chi1';
+import { chi2 } from './chi2';
+import { chi3 } from './chi3';
 
 const itemsExpirationCheckIntervalInSecs = 24 * 60 * 60;
 const maxItemCount = 1000000;
@@ -12,31 +14,8 @@ const memoryCache = new MemoryCache(itemsExpirationCheckIntervalInSecs, maxItemC
 const app = express();
 const router = express.Router();
 
-async function normalizeDetail(url: string)  {
-  const paths = url.split('/')
-  const id = +paths[paths.length - 2]
-  const key = `rycw-${id}`
-
-  if (memoryCache.hasItem(key)) {
-      console.log('cache',url)
-      return memoryCache.retrieveItemValue(key)
-  }
-// let $: cheerio.CheerioAPI
-//     if (memoryCache.hasItem(key)) {
-//     console.log('cahe',url)
-//         $ = memoryCache.retrieveItemValue(key)
-//     } else {
-//      console.log('fetdch',url);
-   
-//     const pageHTML = await axios.get(url)
-//     $ = cheerio.load(pageHTML.data)
-//     memoryCache.storePermanentItem(key, $)   
-//     }
-  // const pageHTML = await axios.get(url)
-  // const $ = cheerio.load(pageHTML.data)
-  console.log('fetch',url)
-  const $ = cheerio.load(chi1)
-  memoryCache.storePermanentItem(key, $)   
+function normalizeDetail(id:number, htmlData: string)  {
+  const $ = cheerio.load(htmlData)
   const title = $(".single-post-title").text()
   const updatedAt = $('.single-post-date').attr('datetime')
   const body = $(".single-post-main")
@@ -44,10 +23,10 @@ async function normalizeDetail(url: string)  {
   const gender = body.find('table > tbody > tr:nth-child(4) > td:nth-child(2)').text();
   const birthday = body.find('table > tbody > tr:nth-child(5) > td:nth-child(2)').text();
   const price = body.find('table > tbody > tr:nth-child(8) > td:nth-child(2)').text();
-  const gallery = $('.wp-block-gallery')
+  const gallery = $('.wp-block-image')
   const album: { src?: string }[] = []
   
-  $(gallery).children().each((_, element) => {
+  $(gallery).each((_, element) => {
       const img = $(element).find('img')
 
       album.push({
@@ -67,31 +46,61 @@ async function normalizeDetail(url: string)  {
       title,
       updatedAt,
   } 
+
+  return model
+}
+
+// @ts-ignore
+async function fetchDetail(url: string) {
+  const paths = url.split('/')
+  const id = +paths[paths.length - 2]
+  const key = `rycw-${id}`
+
+  if (memoryCache.hasItem(key)) {
+    console.log('cache',url)
+    return memoryCache.retrieveItemValue(key)
+  }
+  
+  const pageHTML = await axios.get(url)
+  const model = normalizeDetail(id, pageHTML.data)
   memoryCache.storePermanentItem(key, model)
-  // console.log("🚀 ~ normalizeDetail ~ model:", model)
+
+  return model
+}
+
+// @ts-ignore
+function mockFetchDetail(_:string, i:number) {
+  const id = i+1
+  const key = `rycw-${i}`
+
+  if (memoryCache.hasItem(key)) {
+    console.log('cache',key)
+    return memoryCache.retrieveItemValue(key)
+  }
+
+  const model = normalizeDetail(id, [chi1,chi2,chi3][i])
+  memoryCache.storePermanentItem(key, model)
 
   return model
 }
 
 router.get("/products", async function(req, res) {
-  console.log("method", req.method);
+  // console.log("method", req.method);
   const $ = cheerio.load(landpage)
-            const detailURLs = $(".grid_post-box").map((_, element) => $(element).children().attr("data-href")).filter(Boolean)
-            // console.log("🚀 ~ $ ~ detailURL:", detailURLs)
-            const detailHTMLs = await Promise.all(detailURLs.slice(0,3).map((_, ele) => normalizeDetail(ele)))
-            // const detailHTMLs = await normalizeDetail(detailURLs[0])
+  const detailURLs = $(".grid_post-box").map((_, element) => $(element).children().attr("data-href")).filter(Boolean)
+  // const detailHTMLs = await Promise.all(detailURLs.slice(0,3).map((_, ele) => mockFetchDetail(ele,_)))
+  const detailHTMLs = await Promise.all(detailURLs.map((_, ele) => fetchDetail(ele)))
 
-            // console.log("🚀 ~ handleProducts ~ detailHTMLs:", detailHTMLs)
-try {
-  res.send({status: 'succeess',data: detailHTMLs });
-  
-} catch (_) {
-  res.status(400).send({ status: 'failed', data:'Bad Request'})
-}
+  try {
+    res.send({status: 'succeess',data: detailHTMLs });
+    
+  } catch (_) {
+    res.status(400).send({ status: 'failed', data:'Bad Request'})
+  }
 })
 
 router.get("/health", function (req, res) {
-  console.log("method", req.method);
+  // console.log("method", req.method);
 
 // https://github.com/omniti-labs/jsend
   res.send({ status: "success", data: "Alive" });

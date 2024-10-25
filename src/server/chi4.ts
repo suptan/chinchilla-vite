@@ -5,23 +5,23 @@ export const chi3 = `
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>チンチラ　スタンダードグレー　男の子《玖栗(くり)》（兄弟） | Royal Chinchilla Gallery</title>
-<meta name="description" content="在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム玖栗(くり)カラースタンダードグレー性　別男の子誕生日2024年03月21日出身地日本（東京都大田区）ロイヤルチンチラ生まれアピールポイント">
-<meta name="thumbnail" content="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2842-600x600.jpeg" /><!-- Diver OGP -->
+<title>チンチラ　バイオレット　女の子《那子（なこ）》（姉妹） | Royal Chinchilla Gallery</title>
+<meta name="description" content="在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム那子（なこ）カラーバイオレット性　別女の子誕生日2023年08月27日出身地日本（東京都大田区）ロイヤルチンチラ生まれアピールポイント茅子（">
+<meta name="thumbnail" content="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2907-600x600.jpeg" /><!-- Diver OGP -->
 <meta property="og:locale" content="ja_JP" />
-<meta property="og:title" content="チンチラ　スタンダードグレー　男の子《玖栗(くり)》（兄弟）" />
-<meta property="og:description" content="在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム玖栗(くり)カラースタンダードグレー性　別男の子誕生日2024年03月21日出身地日本（東京都大田区）ロイヤルチンチラ生まれアピールポイント" />
+<meta property="og:title" content="チンチラ　バイオレット　女の子《那子（なこ）》（姉妹）" />
+<meta property="og:description" content="在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム那子（なこ）カラーバイオレット性　別女の子誕生日2023年08月27日出身地日本（東京都大田区）ロイヤルチンチラ生まれアピールポイント茅子（" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://chinchillagallery.royalchinchilla.com/wait/wisteria/950/" />
-<meta property="og:image" content="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2842.jpeg" />
+<meta property="og:url" content="https://chinchillagallery.royalchinchilla.com/wait/wisteria/881/" />
+<meta property="og:image" content="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2907.jpeg" />
 <meta property="og:site_name" content="Royal Chinchilla Gallery" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="チンチラ　スタンダードグレー　男の子《玖栗(くり)》（兄弟）" />
-<meta name="twitter:url" content="https://chinchillagallery.royalchinchilla.com/wait/wisteria/950/" />
-<meta name="twitter:description" content="在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム玖栗(くり)カラースタンダードグレー性　別男の子誕生日2024年03月21日出身地日本（東京都大田区）ロイヤルチンチラ生まれアピールポイント" />
-<meta name="twitter:image" content="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2842.jpeg" />
+<meta name="twitter:title" content="チンチラ　バイオレット　女の子《那子（なこ）》（姉妹）" />
+<meta name="twitter:url" content="https://chinchillagallery.royalchinchilla.com/wait/wisteria/881/" />
+<meta name="twitter:description" content="在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム那子（なこ）カラーバイオレット性　別女の子誕生日2023年08月27日出身地日本（東京都大田区）ロイヤルチンチラ生まれアピールポイント茅子（" />
+<meta name="twitter:image" content="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2907.jpeg" />
 <!-- / Diver OGP -->
-<link rel="canonical" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/950/">
+<link rel="canonical" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/881/">
 <link rel="shortcut icon" href="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/07/tw144.png">
 <!--[if IE]>
 		<link rel="shortcut icon" href="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/07/tw144.png">
@@ -31,7 +31,7 @@ export const chi3 = `
 <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
 <link rel="alternate" type="application/rss+xml" title="Royal Chinchilla Gallery &raquo; フィード" href="https://chinchillagallery.royalchinchilla.com/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Royal Chinchilla Gallery &raquo; コメントフィード" href="https://chinchillagallery.royalchinchilla.com/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Royal Chinchilla Gallery &raquo; チンチラ　スタンダードグレー　男の子《玖栗(くり)》（兄弟） のコメントのフィード" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/950/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Royal Chinchilla Gallery &raquo; チンチラ　バイオレット　女の子《那子（なこ）》（姉妹） のコメントのフィード" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/881/feed/" />
 <link rel='stylesheet'  href='https://chinchillagallery.royalchinchilla.com/wp-includes/css/dist/block-library/style.min.css?ver=6.6.2&#038;theme=6.0.81'  media='all'>
 <style id='global-styles-inline-css' type='text/css'>
 :root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--light-blue: #70b8f1;--wp--preset--color--light-red: #ff8178;--wp--preset--color--light-green: #2ac113;--wp--preset--color--light-yellow: #ffe822;--wp--preset--color--light-orange: #ffa30d;--wp--preset--color--blue: #00f;--wp--preset--color--red: #f00;--wp--preset--color--purple: #674970;--wp--preset--color--gray: #ccc;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: .8em;--wp--preset--font-size--medium: 1em;--wp--preset--font-size--large: 1.2em;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--xlarge: 1.5em;--wp--preset--font-size--xxlarge: 2em;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}:root { --wp--style--global--content-size: 769px;--wp--style--global--wide-size: 1240px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 1.5em; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 1.5em; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 1.5em;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 1.5em;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 1.5em;}:root :where(.is-layout-grid){gap: 1.5em;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-light-blue-color{color: var(--wp--preset--color--light-blue) !important;}.has-light-red-color{color: var(--wp--preset--color--light-red) !important;}.has-light-green-color{color: var(--wp--preset--color--light-green) !important;}.has-light-yellow-color{color: var(--wp--preset--color--light-yellow) !important;}.has-light-orange-color{color: var(--wp--preset--color--light-orange) !important;}.has-blue-color{color: var(--wp--preset--color--blue) !important;}.has-red-color{color: var(--wp--preset--color--red) !important;}.has-purple-color{color: var(--wp--preset--color--purple) !important;}.has-gray-color{color: var(--wp--preset--color--gray) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-light-blue-background-color{background-color: var(--wp--preset--color--light-blue) !important;}.has-light-red-background-color{background-color: var(--wp--preset--color--light-red) !important;}.has-light-green-background-color{background-color: var(--wp--preset--color--light-green) !important;}.has-light-yellow-background-color{background-color: var(--wp--preset--color--light-yellow) !important;}.has-light-orange-background-color{background-color: var(--wp--preset--color--light-orange) !important;}.has-blue-background-color{background-color: var(--wp--preset--color--blue) !important;}.has-red-background-color{background-color: var(--wp--preset--color--red) !important;}.has-purple-background-color{background-color: var(--wp--preset--color--purple) !important;}.has-gray-background-color{background-color: var(--wp--preset--color--gray) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-light-blue-border-color{border-color: var(--wp--preset--color--light-blue) !important;}.has-light-red-border-color{border-color: var(--wp--preset--color--light-red) !important;}.has-light-green-border-color{border-color: var(--wp--preset--color--light-green) !important;}.has-light-yellow-border-color{border-color: var(--wp--preset--color--light-yellow) !important;}.has-light-orange-border-color{border-color: var(--wp--preset--color--light-orange) !important;}.has-blue-border-color{border-color: var(--wp--preset--color--blue) !important;}.has-red-border-color{border-color: var(--wp--preset--color--red) !important;}.has-purple-border-color{border-color: var(--wp--preset--color--purple) !important;}.has-gray-border-color{border-color: var(--wp--preset--color--gray) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xlarge-font-size{font-size: var(--wp--preset--font-size--xlarge) !important;}.has-xxlarge-font-size{font-size: var(--wp--preset--font-size--xxlarge) !important;}
@@ -43,11 +43,11 @@ export const chi3 = `
 <link rel='stylesheet'  href='https://chinchillagallery.royalchinchilla.com/wp-content/themes/diver_child/style.css?theme=6.0.81'  media='all'>
 <!--n2css--><!--n2js--><script type="text/javascript"src="https://chinchillagallery.royalchinchilla.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1&amp;theme=6.0.81" id="jquery-core-js"></script>
 <script type="text/javascript"src="https://chinchillagallery.royalchinchilla.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1&amp;theme=6.0.81" id="jquery-migrate-js"></script>
-<link rel="https://api.w.org/" href="https://chinchillagallery.royalchinchilla.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://chinchillagallery.royalchinchilla.com/wp-json/wp/v2/posts/950" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://chinchillagallery.royalchinchilla.com/xmlrpc.php?rsd" />
+<link rel="https://api.w.org/" href="https://chinchillagallery.royalchinchilla.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://chinchillagallery.royalchinchilla.com/wp-json/wp/v2/posts/881" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://chinchillagallery.royalchinchilla.com/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.6.2" />
-<link rel='shortlink' href='https://chinchillagallery.royalchinchilla.com/?p=950' />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://chinchillagallery.royalchinchilla.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F950%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://chinchillagallery.royalchinchilla.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F950%2F&#038;format=xml" />
+<link rel='shortlink' href='https://chinchillagallery.royalchinchilla.com/?p=881' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://chinchillagallery.royalchinchilla.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F881%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://chinchillagallery.royalchinchilla.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F881%2F&#038;format=xml" />
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-74VE467T6Y"></script>
       <script>
@@ -63,17 +63,17 @@ export const chi3 = `
         "@type": "BlogPosting",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://chinchillagallery.royalchinchilla.com/wait/wisteria/950/"
+            "@id": "https://chinchillagallery.royalchinchilla.com/wait/wisteria/881/"
         },
-        "headline": "チンチラ　スタンダードグレー　男の子《玖栗(くり)》（兄弟）",
+        "headline": "チンチラ　バイオレット　女の子《那子（なこ）》（姉妹）",
         "image": [
-            "https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2842.jpeg",
-            "https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2842.jpeg",
-            "https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2842-600x600.jpeg"
+            "https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2907.jpeg",
+            "https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2907.jpeg",
+            "https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2907-600x600.jpeg"
         ],
-        "description": "在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム玖栗(くり)カラースタンダードグレー性　別男の子誕生日2024年03月21日出身地日本（東京都大田区）ロイヤルチンチラ生まれアピールポイント",
-        "datePublished": "2024-10-18T01:08:57+09:00",
-        "dateModified": "2024-10-19T01:42:25+09:00",
+        "description": "在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム那子（なこ）カラーバイオレット性　別女の子誕生日2023年08月27日出身地日本（東京都大田区）ロイヤルチンチラ生まれアピールポイント茅子（",
+        "datePublished": "2024-10-19T07:00:00+09:00",
+        "dateModified": "2024-10-19T02:37:38+09:00",
         "articleSection": [
             "WISTERIA"
         ],
@@ -102,7 +102,7 @@ export const chi3 = `
 <script src="https://www.youtube.com/iframe_api"></script>
 
 </head>
-<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="post-template-default single single-post postid-950 single-format-standard wp-embed-responsive is-editor-blocks l-sidebar-none">
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="post-template-default single single-post postid-881 single-format-standard wp-embed-responsive is-editor-blocks l-sidebar-none">
 
 <div id="container">
 <!-- header -->
@@ -216,53 +216,59 @@ export const chi3 = `
 		<div class="l-main-container">
 		<main id="single-main" class="full" style="" role="main">
 					
-								<div id="breadcrumb"><ul itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://chinchillagallery.royalchinchilla.com/" itemprop="item"><span itemprop="name"><i class="fa fa-home" aria-hidden="true"></i> ホーム</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://chinchillagallery.royalchinchilla.com/category/wait/" itemprop="item"><span itemprop="name">販売中</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://chinchillagallery.royalchinchilla.com/category/wait/wisteria/" itemprop="item"><span itemprop="name">WISTERIA</span></a><meta itemprop="position" content="3" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name">チンチラ　スタンダードグレー　男の子《玖栗(くり)》（兄弟）</span><meta itemprop="position" content="4" /></li></ul></div> 
+								<div id="breadcrumb"><ul itemscope itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://chinchillagallery.royalchinchilla.com/" itemprop="item"><span itemprop="name"><i class="fa fa-home" aria-hidden="true"></i> ホーム</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://chinchillagallery.royalchinchilla.com/category/wait/" itemprop="item"><span itemprop="name">販売中</span></a><meta itemprop="position" content="2" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://chinchillagallery.royalchinchilla.com/category/wait/wisteria/" itemprop="item"><span itemprop="name">WISTERIA</span></a><meta itemprop="position" content="3" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name">チンチラ　バイオレット　女の子《那子（なこ）》（姉妹）</span><meta itemprop="position" content="4" /></li></ul></div> 
 					<div id="content_area" class="fadeIn animated">
 						<div class="content_area_side">
 	<div id="share_plz" class="sns">
 
-		<a class='facebook' href='http://www.facebook.com/share.php?u=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F950%2F&title=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%82%B0%E3%83%AC%E3%83%BC%E3%80%80%E7%94%B7%E3%81%AE%E5%AD%90%E3%80%8A%E7%8E%96%E6%A0%97%28%E3%81%8F%E3%82%8A%29%E3%80%8B%EF%BC%88%E5%85%84%E5%BC%9F%EF%BC%89+-+Royal+Chinchilla+Gallery'><i class="fa fa-facebook"></i><span class='sns_name'>Facebook</span></a><a class='twitter' href='https://twitter.com/intent/post?url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F950%2F&text=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%82%B0%E3%83%AC%E3%83%BC%E3%80%80%E7%94%B7%E3%81%AE%E5%AD%90%E3%80%8A%E7%8E%96%E6%A0%97%28%E3%81%8F%E3%82%8A%29%E3%80%8B%EF%BC%88%E5%85%84%E5%BC%9F%EF%BC%89+-+Royal+Chinchilla+Gallery&tw_p=tweetbutton'><svg width="1200" height="1227" viewBox="0 0 1200 1227" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+		<a class='facebook' href='http://www.facebook.com/share.php?u=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F881%2F&title=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88%E3%80%80%E5%A5%B3%E3%81%AE%E5%AD%90%E3%80%8A%E9%82%A3%E5%AD%90%EF%BC%88%E3%81%AA%E3%81%93%EF%BC%89%E3%80%8B%EF%BC%88%E5%A7%89%E5%A6%B9%EF%BC%89+-+Royal+Chinchilla+Gallery'><i class="fa fa-facebook"></i><span class='sns_name'>Facebook</span></a><a class='twitter' href='https://twitter.com/intent/post?url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F881%2F&text=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88%E3%80%80%E5%A5%B3%E3%81%AE%E5%AD%90%E3%80%8A%E9%82%A3%E5%AD%90%EF%BC%88%E3%81%AA%E3%81%93%EF%BC%89%E3%80%8B%EF%BC%88%E5%A7%89%E5%A6%B9%EF%BC%89+-+Royal+Chinchilla+Gallery&tw_p=tweetbutton'><svg width="1200" height="1227" viewBox="0 0 1200 1227" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"/>
-                </svg><span class='sns_name'>post</span></a><a class='hatebu' href='https://b.hatena.ne.jp/add?mode=confirm&url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F950%2F&title=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%82%B0%E3%83%AC%E3%83%BC%E3%80%80%E7%94%B7%E3%81%AE%E5%AD%90%E3%80%8A%E7%8E%96%E6%A0%97%28%E3%81%8F%E3%82%8A%29%E3%80%8B%EF%BC%88%E5%85%84%E5%BC%9F%EF%BC%89+-+Royal+Chinchilla+Gallery'><span class='sns_name'>はてブ</span></a><a class='pocket' href='https://getpocket.com/edit?url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F950%2F&title=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%82%B0%E3%83%AC%E3%83%BC%E3%80%80%E7%94%B7%E3%81%AE%E5%AD%90%E3%80%8A%E7%8E%96%E6%A0%97%28%E3%81%8F%E3%82%8A%29%E3%80%8B%EF%BC%88%E5%85%84%E5%BC%9F%EF%BC%89+-+Royal+Chinchilla+Gallery'><i class="fa fa-get-pocket" aria-hidden="true"></i><span class='sns_name'>Pocket</span></a><a class='feedly' href='https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F950%2F%2Ffeed'><i class="fa fa-rss" aria-hidden="true"></i><span class='sns_name'>Feedly</span></a>
+                </svg><span class='sns_name'>post</span></a><a class='hatebu' href='https://b.hatena.ne.jp/add?mode=confirm&url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F881%2F&title=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88%E3%80%80%E5%A5%B3%E3%81%AE%E5%AD%90%E3%80%8A%E9%82%A3%E5%AD%90%EF%BC%88%E3%81%AA%E3%81%93%EF%BC%89%E3%80%8B%EF%BC%88%E5%A7%89%E5%A6%B9%EF%BC%89+-+Royal+Chinchilla+Gallery'><span class='sns_name'>はてブ</span></a><a class='pocket' href='https://getpocket.com/edit?url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F881%2F&title=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88%E3%80%80%E5%A5%B3%E3%81%AE%E5%AD%90%E3%80%8A%E9%82%A3%E5%AD%90%EF%BC%88%E3%81%AA%E3%81%93%EF%BC%89%E3%80%8B%EF%BC%88%E5%A7%89%E5%A6%B9%EF%BC%89+-+Royal+Chinchilla+Gallery'><i class="fa fa-get-pocket" aria-hidden="true"></i><span class='sns_name'>Pocket</span></a><a class='feedly' href='https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F881%2F%2Ffeed'><i class="fa fa-rss" aria-hidden="true"></i><span class='sns_name'>Feedly</span></a>
 	</div>
 </div>
-						<article id="post-950" class="post-950 post type-post status-publish format-standard has-post-thumbnail hentry category-wisteria tag-gray tag-chinchilla tag-kyodai tag-boy">
+						<article id="post-881" class="post-881 post type-post status-publish format-standard has-post-thumbnail hentry category-wisteria tag-chinchilla tag-violet tag-girl tag-shimai">
 							<header>
 								<div class="post-meta clearfix">
 									<div class="cat-tag">
 																					<div class="single-post-category" style="background:#9079ad"><a href="https://chinchillagallery.royalchinchilla.com/category/wait/wisteria/" rel="category tag">WISTERIA</a></div>
-																				<div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/chinchilla/" rel="tag">チンチラ</a></div><div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/boy/" rel="tag">男の子</a></div><div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/gray/" rel="tag">スタンダードグレー</a></div><div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/kyodai/" rel="tag">兄弟ペア</a></div>									</div>
+																				<div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/chinchilla/" rel="tag">チンチラ</a></div><div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/girl/" rel="tag">女の子</a></div><div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/violet/" rel="tag">バイオレット</a></div><div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/shimai/" rel="tag">姉妹ペア</a></div>									</div>
 
-									<h1 class="single-post-title entry-title">チンチラ　スタンダードグレー　男の子《玖栗(くり)》（兄弟）</h1>
+									<h1 class="single-post-title entry-title">チンチラ　バイオレット　女の子《那子（なこ）》（姉妹）</h1>
 									<div class="post-meta-bottom">
-																												<time class="single-post-date published updated" datetime="2024-10-18"><i class="fa fa-calendar" aria-hidden="true"></i>2024年10月18日</time>
+																												<time class="single-post-date published updated" datetime="2024-10-19"><i class="fa fa-calendar" aria-hidden="true"></i>2024年10月19日</time>
 																											
 									</div>
 																	</div>
-								<figure class="single_thumbnail lazyload" data-bg="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2842.jpeg"><img src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2842.jpeg" width="750" height="750" alt="チンチラ　スタンダードグレー　男の子《玖栗(くり)》（兄弟）"></figure>    
+								<figure class="single_thumbnail lazyload" data-bg="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2907.jpeg"><img src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2907.jpeg" width="719" height="719" alt="チンチラ　バイオレット　女の子《那子（なこ）》（姉妹）"></figure>    
     							</header>
 							<section class="single-post-main">
 																		
 
 									<div class="content">
 																		
-<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>在籍店舗</td><td><a href="https://chinchillagallery.royalchinchilla.com/shop/#wisteria">WISTERIA（大田区千鳥）</a></td></tr><tr><td>ロイヤルチンチラネーム</td><td>玖栗(くり)</td></tr><tr><td>カラー</td><td>スタンダードグレー</td></tr><tr><td>性　別</td><td>男の子</td></tr><tr><td>誕生日</td><td>2024年03月21日</td></tr><tr><td>出身地</td><td>日本（東京都大田区）<br>ロイヤルチンチラ生まれ</td></tr><tr><td>アピールポイント</td><td>可愛いお顔と《玖羅》より大きくさらにガチムチボディ&#x1f495;（2024年10月現在）<br>《玖羅》と兄弟です&#x1f42d;</td></tr><tr><td>価　格</td><td>120,000円（税込）<br>&#x1f42d;<mark style="background-color:#fadbda" class="has-inline-color">兄弟ペア価格あり</mark>&#x1f42d;</td></tr><tr><td>RC_No</td><td>BH0389</td></tr></tbody></table></figure>
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>在籍店舗</td><td><a href="https://chinchillagallery.royalchinchilla.com/shop/#wisteria">WISTERIA（大田区千鳥）</a></td></tr><tr><td>ロイヤルチンチラネーム</td><td>那子（なこ）</td></tr><tr><td>カラー</td><td>バイオレット</td></tr><tr><td>性　別</td><td>女の子</td></tr><tr><td>誕生日</td><td>2023年08月27日</td></tr><tr><td>出身地</td><td>日本（東京都大田区）<br>ロイヤルチンチラ生まれ</td></tr><tr><td>アピールポイント</td><td><a href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/867/">茅子（ちこ）</a>ちゃんと仲良し姉妹です。</td></tr><tr><td>価　格</td><td>143,000円（税込）<br>&#x1f42d;<mark style="background-color:#fadbda" class="has-inline-color">姉妹ペア価格あり</mark>&#x1f42d;</td></tr><tr><td>RC_No</td><td>BH0330</td></tr></tbody></table></figure>
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" width="818" height="818" src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2843.jpeg" alt="" class="wp-image-1000" srcset="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2843.jpeg 818w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2843-600x600.jpeg 600w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2843-768x768.jpeg 768w" sizes="(max-width: 818px) 100vw, 818px" /></figure>
+<figure class="wp-block-gallery has-nested-images columns-1 is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img decoding="async" width="943" height="943" data-id="1020" src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2915.jpeg" alt="" class="wp-image-1020" srcset="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2915.jpeg 943w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2915-600x600.jpeg 600w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2915-768x768.jpeg 768w" sizes="(max-width: 943px) 100vw, 943px" /></figure>
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" width="672" height="672" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2838.jpeg" alt="" class="wp-image-1001 lazyload" data-srcset="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2838.jpeg 672w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2838-600x600.jpeg 600w" data-sizes="(max-width: 672px) 100vw, 672px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="865" height="865" data-id="1021" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2913.jpeg" alt="" class="wp-image-1021 lazyload" data-srcset="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2913.jpeg 865w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2913-600x600.jpeg 600w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2913-768x768.jpeg 768w" data-sizes="(max-width: 865px) 100vw, 865px" /></figure>
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="734" height="734" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2860.jpeg" alt="" class="wp-image-1002 lazyload" data-srcset="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2860.jpeg 734w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2860-600x600.jpeg 600w" data-sizes="(max-width: 734px) 100vw, 734px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="818" height="818" data-id="1022" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2905.jpeg" alt="" class="wp-image-1022 lazyload" data-srcset="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2905.jpeg 818w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2905-600x600.jpeg 600w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2905-768x768.jpeg 768w" data-sizes="(max-width: 818px) 100vw, 818px" /></figure>
 
 
 
-<figure class="wp-block-gallery has-nested-images columns-1 is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex"></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="716" height="716" data-id="1023" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2876.jpeg" alt="" class="wp-image-1023 lazyload" data-srcset="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2876.jpeg 716w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2876-600x600.jpeg 600w" data-sizes="(max-width: 716px) 100vw, 716px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="955" height="955" data-id="1024" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2894.jpeg" alt="" class="wp-image-1024 lazyload" data-srcset="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2894.jpeg 955w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2894-600x600.jpeg 600w, https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2894-768x768.jpeg 768w" data-sizes="(max-width: 955px) 100vw, 955px" /></figure>
+</figure>
 
 
 
@@ -293,9 +299,9 @@ export const chi3 = `
 
 									    
             <div class="share-button sns small" >
-                <a class='facebook' href='http://www.facebook.com/share.php?u=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F950%2F&title=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%82%B0%E3%83%AC%E3%83%BC%E3%80%80%E7%94%B7%E3%81%AE%E5%AD%90%E3%80%8A%E7%8E%96%E6%A0%97%28%E3%81%8F%E3%82%8A%29%E3%80%8B%EF%BC%88%E5%85%84%E5%BC%9F%EF%BC%89+-+Royal+Chinchilla+Gallery'><i class="fa fa-facebook"></i><span class='sns_name'>Facebook</span></a><a class='twitter' href='https://twitter.com/intent/post?url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F950%2F&text=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%82%B0%E3%83%AC%E3%83%BC%E3%80%80%E7%94%B7%E3%81%AE%E5%AD%90%E3%80%8A%E7%8E%96%E6%A0%97%28%E3%81%8F%E3%82%8A%29%E3%80%8B%EF%BC%88%E5%85%84%E5%BC%9F%EF%BC%89+-+Royal+Chinchilla+Gallery&tw_p=tweetbutton'><svg width="1200" height="1227" viewBox="0 0 1200 1227" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <a class='facebook' href='http://www.facebook.com/share.php?u=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F881%2F&title=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88%E3%80%80%E5%A5%B3%E3%81%AE%E5%AD%90%E3%80%8A%E9%82%A3%E5%AD%90%EF%BC%88%E3%81%AA%E3%81%93%EF%BC%89%E3%80%8B%EF%BC%88%E5%A7%89%E5%A6%B9%EF%BC%89+-+Royal+Chinchilla+Gallery'><i class="fa fa-facebook"></i><span class='sns_name'>Facebook</span></a><a class='twitter' href='https://twitter.com/intent/post?url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F881%2F&text=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88%E3%80%80%E5%A5%B3%E3%81%AE%E5%AD%90%E3%80%8A%E9%82%A3%E5%AD%90%EF%BC%88%E3%81%AA%E3%81%93%EF%BC%89%E3%80%8B%EF%BC%88%E5%A7%89%E5%A6%B9%EF%BC%89+-+Royal+Chinchilla+Gallery&tw_p=tweetbutton'><svg width="1200" height="1227" viewBox="0 0 1200 1227" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"/>
-                </svg><span class='sns_name'>post</span></a><a class='line' href='https://line.me/R/msg/text/?%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%82%B0%E3%83%AC%E3%83%BC%E3%80%80%E7%94%B7%E3%81%AE%E5%AD%90%E3%80%8A%E7%8E%96%E6%A0%97%28%E3%81%8F%E3%82%8A%29%E3%80%8B%EF%BC%88%E5%85%84%E5%BC%9F%EF%BC%89+-+Royal+Chinchilla+Gallery%0Ahttps%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F950%2F'><i class="fa fa-instagram" aria-hidden="true"></i></a><a class='pocket' href='https://getpocket.com/edit?url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F950%2F&title=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%89%E3%82%B0%E3%83%AC%E3%83%BC%E3%80%80%E7%94%B7%E3%81%AE%E5%AD%90%E3%80%8A%E7%8E%96%E6%A0%97%28%E3%81%8F%E3%82%8A%29%E3%80%8B%EF%BC%88%E5%85%84%E5%BC%9F%EF%BC%89+-+Royal+Chinchilla+Gallery'><i class="fa fa-get-pocket" aria-hidden="true"></i><span class='sns_name'>Pocket</span></a><a class='feedly' href='https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F950%2F%2Ffeed'><i class="fa fa-rss" aria-hidden="true"></i><span class='sns_name'>Feedly</span></a>    
+                </svg><span class='sns_name'>post</span></a><a class='line' href='https://line.me/R/msg/text/?%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88%E3%80%80%E5%A5%B3%E3%81%AE%E5%AD%90%E3%80%8A%E9%82%A3%E5%AD%90%EF%BC%88%E3%81%AA%E3%81%93%EF%BC%89%E3%80%8B%EF%BC%88%E5%A7%89%E5%A6%B9%EF%BC%89+-+Royal+Chinchilla+Gallery%0Ahttps%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F881%2F'><i class="fa fa-instagram" aria-hidden="true"></i></a><a class='pocket' href='https://getpocket.com/edit?url=https%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F881%2F&title=%E3%83%81%E3%83%B3%E3%83%81%E3%83%A9%E3%80%80%E3%83%90%E3%82%A4%E3%82%AA%E3%83%AC%E3%83%83%E3%83%88%E3%80%80%E5%A5%B3%E3%81%AE%E5%AD%90%E3%80%8A%E9%82%A3%E5%AD%90%EF%BC%88%E3%81%AA%E3%81%93%EF%BC%89%E3%80%8B%EF%BC%88%E5%A7%89%E5%A6%B9%EF%BC%89+-+Royal+Chinchilla+Gallery'><i class="fa fa-get-pocket" aria-hidden="true"></i><span class='sns_name'>Pocket</span></a><a class='feedly' href='https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fchinchillagallery.royalchinchilla.com%2Fwait%2Fwisteria%2F881%2F%2Ffeed'><i class="fa fa-rss" aria-hidden="true"></i><span class='sns_name'>Feedly</span></a>    
         </div>
     																</section>
 							<footer class="article_footer">
@@ -303,52 +309,63 @@ export const chi3 = `
 																<!-- 関連キーワード -->
 																		<div class="single_title">関連キーワード</div>
 										<div class="tag_area">
-											<div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/gray/" rel="tag">スタンダードグレー</a></div><div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/chinchilla/" rel="tag">チンチラ</a></div><div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/kyodai/" rel="tag">兄弟ペア</a></div><div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/boy/" rel="tag">男の子</a></div>										</div>
+											<div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/chinchilla/" rel="tag">チンチラ</a></div><div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/violet/" rel="tag">バイオレット</a></div><div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/girl/" rel="tag">女の子</a></div><div class="tag"><a href="https://chinchillagallery.royalchinchilla.com/tag/shimai/" rel="tag">姉妹ペア</a></div>										</div>
 									
 								<!-- 関連記事 -->
 								<div class="single_title"><span class="cat-link"><a href="https://chinchillagallery.royalchinchilla.com/category/wait/wisteria/" rel="category tag">WISTERIA</a></span>の関連記事</div>
 <ul class="newpost_list">
 			<li class="post_list_wrap clearfix hvr-fade-post">
-		<a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/94/" title="ロイヤル・ペルジアン・アンゴラ　バイオレット　男の子《ハロ》" rel="bookmark">
+		<a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/815/" title="チンチラ　バイオレット　男の子《まなぶ》" rel="bookmark">
 		<figure class="post-box-thumbnail__wrap">
-		<img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="ロイヤル・ペルジアン・アンゴラ　バイオレット　男の子《ハロ》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/07/2404_halo01-150x150.jpg" class="lazyload">		</figure>
+		<img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　バイオレット　男の子《まなぶ》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/09/IMG_7369-150x150.jpeg" class="lazyload">		</figure>
 		<div class="meta">
-		<div class="title">ロイヤル・ペルジアン・アンゴラ　バイオレット　男の子《ハロ》</div>
+		<div class="title">チンチラ　バイオレット　男の子《まなぶ》</div>
+		<time class="date" datetime="2024-10-08">
+		2024年9月15日		</time>
+		</div>
+		</a>
+		</li>
+				<li class="post_list_wrap clearfix hvr-fade-post">
+		<a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/1/" title="チンチラ　スタンダードグレー　女の子《スー》" rel="bookmark">
+		<figure class="post-box-thumbnail__wrap">
+		<img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　スタンダードグレー　女の子《スー》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/06/suu-150x150.jpg" class="lazyload">		</figure>
+		<div class="meta">
+		<div class="title">チンチラ　スタンダードグレー　女の子《スー》</div>
 		<time class="date" datetime="2024-09-14">
-		2024年7月31日		</time>
+		2024年6月3日		</time>
 		</div>
 		</a>
 		</li>
 				<li class="post_list_wrap clearfix hvr-fade-post">
-		<a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/505/" title="【ご売約済】チンチラ　TOVベージュ　女の子《マッシュルーム》" rel="bookmark">
+		<a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/809/" title="チンチラ　スタンダードグレー　男の子《春明(しゅんめい)》（兄弟）" rel="bookmark">
 		<figure class="post-box-thumbnail__wrap">
-		<img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="【ご売約済】チンチラ　TOVベージュ　女の子《マッシュルーム》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/08/2407_mash02-150x150.jpg" class="lazyload">		</figure>
+		<img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　スタンダードグレー　男の子《春明(しゅんめい)》（兄弟）" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/08/syunmei4-150x150.jpg" class="lazyload">		</figure>
 		<div class="meta">
-		<div class="title">【ご売約済】チンチラ　TOVベージュ　女の子《マッシュルーム》</div>
-		<time class="date" datetime="2024-10-19">
-		2024年8月23日		</time>
-		</div>
-		</a>
-		</li>
-				<li class="post_list_wrap clearfix hvr-fade-post">
-		<a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/326/" title="チンチラ　ブラックベルベット　男の子《オスカー》" rel="bookmark">
-		<figure class="post-box-thumbnail__wrap">
-		<img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="600" height="600" alt="チンチラ　ブラックベルベット　男の子《オスカー》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/09/2406_oscar-600x600.jpg" class="lazyload">		</figure>
-		<div class="meta">
-		<div class="title">チンチラ　ブラックベルベット　男の子《オスカー》</div>
-		<time class="date" datetime="2024-09-30">
-		2024年8月8日		</time>
-		</div>
-		</a>
-		</li>
-				<li class="post_list_wrap clearfix hvr-fade-post">
-		<a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/444/" title="チンチラ　モザイク　男の子《春喜(しゅんき)》（兄弟）" rel="bookmark">
-		<figure class="post-box-thumbnail__wrap">
-		<img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="600" height="600" alt="チンチラ　モザイク　男の子《春喜(しゅんき)》（兄弟）" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/09/syunki3-600x600.jpg" class="lazyload">		</figure>
-		<div class="meta">
-		<div class="title">チンチラ　モザイク　男の子《春喜(しゅんき)》（兄弟）</div>
+		<div class="title">チンチラ　スタンダードグレー　男の子《春明(しゅんめい)》（兄弟）</div>
 		<time class="date" datetime="2024-10-17">
 		2024年8月25日		</time>
+		</div>
+		</a>
+		</li>
+				<li class="post_list_wrap clearfix hvr-fade-post">
+		<a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/203/" title="チンチラ　スタンダードグレー　女の子《アシュレイ》" rel="bookmark">
+		<figure class="post-box-thumbnail__wrap">
+		<img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　スタンダードグレー　女の子《アシュレイ》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/08/2406_ash01-150x150.jpg" class="lazyload">		</figure>
+		<div class="meta">
+		<div class="title">チンチラ　スタンダードグレー　女の子《アシュレイ》</div>
+		<time class="date" datetime="2024-09-17">
+		2024年8月1日		</time>
+		</div>
+		</a>
+		</li>
+				<li class="post_list_wrap clearfix hvr-fade-post">
+		<a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/562/" title="チンチラ　モザイク　女の子《ポポ》" rel="bookmark">
+		<figure class="post-box-thumbnail__wrap">
+		<img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　モザイク　女の子《ポポ》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/09/popo2-150x150.jpg" class="lazyload">		</figure>
+		<div class="meta">
+		<div class="title">チンチラ　モザイク　女の子《ポポ》</div>
+		<time class="date" datetime="2024-10-17">
+		2024年9月30日		</time>
 		</div>
 		</a>
 		</li>
@@ -363,24 +380,13 @@ export const chi3 = `
 		</div>
 		</a>
 		</li>
-				<li class="post_list_wrap clearfix hvr-fade-post">
-		<a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/484/" title="チンチラ　ベージュ　男の子《チャーリーブラウン》" rel="bookmark">
-		<figure class="post-box-thumbnail__wrap">
-		<img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　ベージュ　男の子《チャーリーブラウン》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/08/2406_chary02-150x150.jpg" class="lazyload">		</figure>
-		<div class="meta">
-		<div class="title">チンチラ　ベージュ　男の子《チャーリーブラウン》</div>
-		<time class="date" datetime="2024-09-17">
-		2024年8月12日		</time>
-		</div>
-		</a>
-		</li>
 		</ul>
 															</footer>
 						</article>
 					</div>
 					<!-- CTA -->
 										<!-- navigation -->
-					<ul class='navigation-post '><li class='navigation-post__item previous_post container-has-bg'><a class='navigation-post__link' href='https://chinchillagallery.royalchinchilla.com/wait/wisteria/954/'><div class="navigation-post__thumb"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="739" height="739" alt="チンチラ　スタンダードグレー　男の子《玖羅(くら)》（兄弟）" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2784.jpeg" class="lazyload"></div><div class='navigation-post__title'>チンチラ　スタンダードグレー　男の子《玖羅(くら)》（兄弟）</div></a></li><li class='navigation-post__item next_post container-has-bg'><a class='navigation-post__link' href='https://chinchillagallery.royalchinchilla.com/wait/wisteria/867/'><div class='navigation-post__title'>チンチラ　バイオレット　女の子《茅子（ちこ）》（姉妹）</div><div class="navigation-post__thumb"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="835" height="835" alt="チンチラ　バイオレット　女の子《茅子（ちこ）》（姉妹）" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2969.jpeg" class="lazyload"></div></a></li></ul>
+					<ul class='navigation-post '><li class='navigation-post__item previous_post container-has-bg'><a class='navigation-post__link' href='https://chinchillagallery.royalchinchilla.com/wait/wisteria/950/'><div class="navigation-post__thumb"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="750" height="750" alt="チンチラ　スタンダードグレー　男の子《玖栗(くり)》（兄弟）" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_2842.jpeg" class="lazyload"></div><div class='navigation-post__title'>チンチラ　スタンダードグレー　男の子《玖栗(くり)》（兄弟）</div></a></li><li class='navigation-post__item next_post container-has-bg'><a class='navigation-post__link' href='https://chinchillagallery.royalchinchilla.com/wait/wisteria/1043/'><div class='navigation-post__title'>チンチラ　バイオレット　男の子《蒼月（あづき）》</div><div class="navigation-post__thumb"><img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="898" height="898" alt="チンチラ　バイオレット　男の子《蒼月（あづき）》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/IMG_1915.jpeg" class="lazyload"></div></a></li></ul>
 					
 						 
  										<div class="post-sub">
@@ -389,14 +395,74 @@ export const chi3 = `
 						  <div class="single_title">おすすめの記事</div>
   <section class="recommend-post">
             <article role="article" class="single-recommend clearfix hvr-fade-post" style="">
-          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/916/" title="チンチラ　バイオレット　女の子《器子（きこ）》（姉妹）" rel="bookmark">
+          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/490/" title="チンチラ　バイオレット　男の子《なお》" rel="bookmark">
           <figure class="recommend-thumb post-box-thumbnail__wrap">
-              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="600" height="600" alt="チンチラ　バイオレット　女の子《器子（きこ）》（姉妹）" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/09/IMG_2019-600x600.jpeg" class="lazyload">                        <div class="recommend-cat" style="background:#9079ad">WISTERIA</div>
+              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　バイオレット　男の子《なお》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/08/202406_nao01-150x150.jpg" class="lazyload">                        <div class="recommend-cat" style="background:#9079ad">WISTERIA</div>
           </figure>
           <section class="recommend-meta">
             <div class="recommend-title">
-                  チンチラ　バイオレット　女の子《器子（きこ）》（姉妹）            </div>
-            <div class="recommend-desc">在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム器子（きこ）カラーバイオレット性　別女の子誕生日2023年12月14日出身地日本...</div>
+                  チンチラ　バイオレット　男の子《なお》            </div>
+            <div class="recommend-desc">在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネームなおカラーバイオレット性　別男の子誕生日2024年01月27日出身地日本（東京都...</div>
+          </section>
+          </a>
+        </article>
+              <article role="article" class="single-recommend clearfix hvr-fade-post" style="">
+          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/450/" title="チンチラ　スタンダードグレー（RPAキャリア）　男の子《ティオ》" rel="bookmark">
+          <figure class="recommend-thumb post-box-thumbnail__wrap">
+              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　スタンダードグレー（RPAキャリア）　男の子《ティオ》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/09/no-image-150x150.png" class="lazyload">                        <div class="recommend-cat" style="background:#9079ad">WISTERIA</div>
+          </figure>
+          <section class="recommend-meta">
+            <div class="recommend-title">
+                  チンチラ　スタンダードグレー（RPAキャリア）　男の子《ティオ》            </div>
+            <div class="recommend-desc">※RPAは「ロイヤル・ペルジアン・アンゴラ」の略です。 在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネームティオカラースタンダード...</div>
+          </section>
+          </a>
+        </article>
+              <article role="article" class="single-recommend clearfix hvr-fade-post" style="">
+          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/815/" title="チンチラ　バイオレット　男の子《まなぶ》" rel="bookmark">
+          <figure class="recommend-thumb post-box-thumbnail__wrap">
+              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　バイオレット　男の子《まなぶ》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/09/IMG_7369-150x150.jpeg" class="lazyload">                        <div class="recommend-cat" style="background:#9079ad">WISTERIA</div>
+          </figure>
+          <section class="recommend-meta">
+            <div class="recommend-title">
+                  チンチラ　バイオレット　男の子《まなぶ》            </div>
+            <div class="recommend-desc">在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネームまなぶカラーバイオレット性　別男の子誕生日2023年09月16日出身地日本（東京...</div>
+          </section>
+          </a>
+        </article>
+              <article role="article" class="single-recommend clearfix hvr-fade-post" style="">
+          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/1/" title="チンチラ　スタンダードグレー　女の子《スー》" rel="bookmark">
+          <figure class="recommend-thumb post-box-thumbnail__wrap">
+              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　スタンダードグレー　女の子《スー》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/06/suu-150x150.jpg" class="lazyload">                        <div class="recommend-cat" style="background:#9079ad">WISTERIA</div>
+          </figure>
+          <section class="recommend-meta">
+            <div class="recommend-title">
+                  チンチラ　スタンダードグレー　女の子《スー》            </div>
+            <div class="recommend-desc">在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネームスーカラースタンダードグレー性　別女の子誕生日2023年4月14日出身地日本（東...</div>
+          </section>
+          </a>
+        </article>
+              <article role="article" class="single-recommend clearfix hvr-fade-post" style="">
+          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/203/" title="チンチラ　スタンダードグレー　女の子《アシュレイ》" rel="bookmark">
+          <figure class="recommend-thumb post-box-thumbnail__wrap">
+              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　スタンダードグレー　女の子《アシュレイ》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/08/2406_ash01-150x150.jpg" class="lazyload">                        <div class="recommend-cat" style="background:#9079ad">WISTERIA</div>
+          </figure>
+          <section class="recommend-meta">
+            <div class="recommend-title">
+                  チンチラ　スタンダードグレー　女の子《アシュレイ》            </div>
+            <div class="recommend-desc">在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネームアシュレイカラースタンダードグレー性　別女の子誕生日2022年04月04日出身地...</div>
+          </section>
+          </a>
+        </article>
+              <article role="article" class="single-recommend clearfix hvr-fade-post" style="">
+          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/922/" title="ロイヤル・ペルジアン・アンゴラ　スタンダードグレー　男の子《桃季（とうき）》" rel="bookmark">
+          <figure class="recommend-thumb post-box-thumbnail__wrap">
+              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="600" height="600" alt="ロイヤル・ペルジアン・アンゴラ　スタンダードグレー　男の子《桃季（とうき）》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/10/touki01-600x600.jpg" class="lazyload">                        <div class="recommend-cat" style="background:#9079ad">WISTERIA</div>
+          </figure>
+          <section class="recommend-meta">
+            <div class="recommend-title">
+                  ロイヤル・ペルジアン・アンゴラ　スタンダードグレー　男の子《桃季（とうき）》            </div>
+            <div class="recommend-desc">在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム桃季（とうき）カラースタンダードグレー性　別男の子誕生日2023年10月08日出...</div>
           </section>
           </a>
         </article>
@@ -413,74 +479,14 @@ export const chi3 = `
           </a>
         </article>
               <article role="article" class="single-recommend clearfix hvr-fade-post" style="">
-          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/813/" title="チンチラ　スタンダードグレー　男の子《星李（しょうり）》" rel="bookmark">
+          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/rc/359/" title="チンチラ　バイオレット　男の子《しんご》" rel="bookmark">
           <figure class="recommend-thumb post-box-thumbnail__wrap">
-              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　スタンダードグレー　男の子《星李（しょうり）》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/09/no-image-150x150.png" class="lazyload">                        <div class="recommend-cat" style="background:#9079ad">WISTERIA</div>
+              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　バイオレット　男の子《しんご》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/08/singo1-150x150.jpg" class="lazyload">                        <div class="recommend-cat" style="background:#eb7fb1">ロイヤルチンチラ</div>
           </figure>
           <section class="recommend-meta">
             <div class="recommend-title">
-                  チンチラ　スタンダードグレー　男の子《星李（しょうり）》            </div>
-            <div class="recommend-desc">在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム星李（しょうり）カラースタンダードグレー性　別男の子誕生日2022年06月26日...</div>
-          </section>
-          </a>
-        </article>
-              <article role="article" class="single-recommend clearfix hvr-fade-post" style="">
-          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/rc/353/" title="チンチラ　ベージュ　男の子《もなか》" rel="bookmark">
-          <figure class="recommend-thumb post-box-thumbnail__wrap">
-              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　ベージュ　男の子《もなか》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/08/monaka1-150x150.jpg" class="lazyload">                        <div class="recommend-cat" style="background:#eb7fb1">ロイヤルチンチラ</div>
-          </figure>
-          <section class="recommend-meta">
-            <div class="recommend-title">
-                  チンチラ　ベージュ　男の子《もなか》            </div>
-            <div class="recommend-desc">在籍店舗ロイヤルチンチラ（大田区田園調布）ロイヤルチンチラネームもなかカラーベージュ性　別男の子誕生日2023年05月03日出身地日本（東京...</div>
-          </section>
-          </a>
-        </article>
-              <article role="article" class="single-recommend clearfix hvr-fade-post" style="">
-          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/94/" title="ロイヤル・ペルジアン・アンゴラ　バイオレット　男の子《ハロ》" rel="bookmark">
-          <figure class="recommend-thumb post-box-thumbnail__wrap">
-              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="ロイヤル・ペルジアン・アンゴラ　バイオレット　男の子《ハロ》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/07/2404_halo01-150x150.jpg" class="lazyload">                        <div class="recommend-cat" style="background:#9079ad">WISTERIA</div>
-          </figure>
-          <section class="recommend-meta">
-            <div class="recommend-title">
-                  ロイヤル・ペルジアン・アンゴラ　バイオレット　男の子《ハロ》            </div>
-            <div class="recommend-desc">在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネームハロカラーバイオレット性　別男の子誕生日2023年10月31日出身地日本（東京都...</div>
-          </section>
-          </a>
-        </article>
-              <article role="article" class="single-recommend clearfix hvr-fade-post" style="">
-          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/177/" title="ロイヤル・ペルジアン・アンゴラ　モザイク　女の子《紗雪》（姉妹）" rel="bookmark">
-          <figure class="recommend-thumb post-box-thumbnail__wrap">
-              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="ロイヤル・ペルジアン・アンゴラ　モザイク　女の子《紗雪》（姉妹）" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/08/2405_sayuki2-150x150.jpg" class="lazyload">                        <div class="recommend-cat" style="background:#9079ad">WISTERIA</div>
-          </figure>
-          <section class="recommend-meta">
-            <div class="recommend-title">
-                  ロイヤル・ペルジアン・アンゴラ　モザイク　女の子《紗雪》（姉妹）            </div>
-            <div class="recommend-desc">在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム紗雪カラーモザイク性　別女の子誕生日2024年01月19日出身地日本（東京都大田...</div>
-          </section>
-          </a>
-        </article>
-              <article role="article" class="single-recommend clearfix hvr-fade-post" style="">
-          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/511/" title="チンチラ　モザイク　男の子《研二》" rel="bookmark">
-          <figure class="recommend-thumb post-box-thumbnail__wrap">
-              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　モザイク　男の子《研二》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/08/2407_kenji06-150x150.jpg" class="lazyload">                        <div class="recommend-cat" style="background:#9079ad">WISTERIA</div>
-          </figure>
-          <section class="recommend-meta">
-            <div class="recommend-title">
-                  チンチラ　モザイク　男の子《研二》            </div>
-            <div class="recommend-desc">在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネーム研二カラーモザイク性　別男の子誕生日2022年08月30日出身地アメリカアピール...</div>
-          </section>
-          </a>
-        </article>
-              <article role="article" class="single-recommend clearfix hvr-fade-post" style="">
-          <a class="clearfix" href="https://chinchillagallery.royalchinchilla.com/wait/wisteria/815/" title="チンチラ　バイオレット　男の子《まなぶ》" rel="bookmark">
-          <figure class="recommend-thumb post-box-thumbnail__wrap">
-              <img src="data:image/gif;base64,R0lGODdhAQABAPAAAN3d3QAAACwAAAAAAQABAAACAkQBADs=" width="150" height="150" alt="チンチラ　バイオレット　男の子《まなぶ》" loading="lazy" data-src="https://chinchillagallery.royalchinchilla.com/wp-content/uploads/2024/09/IMG_7369-150x150.jpeg" class="lazyload">                        <div class="recommend-cat" style="background:#9079ad">WISTERIA</div>
-          </figure>
-          <section class="recommend-meta">
-            <div class="recommend-title">
-                  チンチラ　バイオレット　男の子《まなぶ》            </div>
-            <div class="recommend-desc">在籍店舗WISTERIA（大田区千鳥）ロイヤルチンチラネームまなぶカラーバイオレット性　別男の子誕生日2023年09月16日出身地日本（東京...</div>
+                  チンチラ　バイオレット　男の子《しんご》            </div>
+            <div class="recommend-desc">在籍店舗ロイヤルチンチラ（大田区田園調布）ロイヤルチンチラネームしんごカラーバイオレット性　別男の子誕生日2022年03月05日出身地日本（...</div>
           </section>
           </a>
         </article>
