@@ -3,9 +3,16 @@
 import "../App.css";
 import { useProducts } from "@/hooks/queries/useProducts";
 import { Card } from "@/components/card";
+import { useQuery } from "@tanstack/react-query";
+import axios from "axios";
 
 function Home() {
   const { data } = useProducts();
+  const { data: lll } = useQuery({
+    queryKey: ["ad"],
+    queryFn: ({ signal }) => axios.get("/api/v1/health", { signal }),
+  });
+  console.log("safd", lll);
 
   return (
     <section>
