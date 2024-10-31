@@ -2,7 +2,7 @@ import express from "express";
 import { MemoryCache } from 'memory-cache-node';
 import axios from "axios";
 import * as cheerio from "cheerio";
-// import { landpage } from './landpage';
+// import { landpage } from "./landpage";
 // import { chi1 } from './chi1';
 // import { chi2 } from './chi2';
 // import { chi3 } from './chi3';
@@ -36,7 +36,7 @@ function normalizeDetail(id:number, htmlData: string)  {
   })
 
   const model ={
-      album,
+      album: album.slice(0, -2),
       id,
       birthday,
       color,
@@ -100,7 +100,7 @@ router.get("/products", async function(req, res) {
     res.status(404).send({ status: 'failed', data:'Not Found'})
   }
 
-  const detailURLs = $(".grid_post-box").map((_, element) => $(element).children().attr("data-href")).filter(Boolean)
+  const detailURLs = $(".grid_post-box").map((_, element) => $(element).children().attr("data-href"))
   // const detailHTMLs = await Promise.all(detailURLs.slice(0,3).map((_, ele) => mockFetchDetail(ele,_)))
   const detailHTMLs = await Promise.all(detailURLs.map((_, ele) => fetchDetail(ele)))
 

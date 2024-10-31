@@ -3,21 +3,21 @@
 import "../App.css";
 import { useProducts } from "@/hooks/queries/useProducts";
 import { Card } from "@/components/card";
-import { useQuery } from "@tanstack/react-query";
-import axios from "axios";
 import InfiniteScroll from "react-infinite-scroll-component";
+import { Bars } from "@/components/loader/bars";
 
 function Home() {
-  const { data, hasNextPage, fetchNextPage } = useProducts();
-  useQuery({
-    queryKey: ["ad"],
-    queryFn: ({ signal }) => axios.get("/api/v1/health", { signal }),
-  });
+  const { data, isFetching, hasNextPage, fetchNextPage } = useProducts();
+  // useQuery({
+  //   queryKey: ["ad"],
+  //   queryFn: ({ signal }) => axios.get("/api/v1/health", { signal }),
+  // });
   // console.log("safd", lll);
 
   return (
     <section>
       <h2 className="text-3xl font-bold mb-4">CHA-LA-CHIN-CHI-LA</h2>
+      <Bars show={isFetching} />
       {/* https://builtin.com/articles/react-infinite-scroll */}
       <InfiniteScroll
         dataLength={data?.length || 0}

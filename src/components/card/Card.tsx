@@ -44,9 +44,21 @@ function Card({ album, birthday, displayPrice, gender, title, source }: CardProp
           <h4 className="text-base font-bold">{title}</h4>
         </div>
         <div className="flex gap-2 justify-center items-center m-2 text-base">
-          <span aria-label="birthday">🎂 {birthday}</span>
-          <span aria-label="price">💰 {displayPrice}</span>
-          <span aria-label="shop">🛒 {source}</span>
+          <span aria-label="birthday">
+            🎂
+            <br />
+            {birthday}
+          </span>
+          <span aria-label="price">
+            💰
+            <br />
+            {displayPrice}
+          </span>
+          <span aria-label="shop">
+            🛒
+            <br />
+            {source}
+          </span>
         </div>
       </div>
     </article>

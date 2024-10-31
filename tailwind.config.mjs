@@ -4,5 +4,6 @@ export default {
   theme: {
     extend: {},
   },
+  safelist: ["flex", "hidden", "justify-center", "w-full", "my-20"],
   plugins: [],
 };
