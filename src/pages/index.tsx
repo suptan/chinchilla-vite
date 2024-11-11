@@ -25,9 +25,9 @@ function Home() {
         hasMore={hasNextPage}
         loader={<h4>Loading...</h4>}
       >
-        <ul className="grid gap-3">
+        <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {data?.map(({ id, ...rest }) => (
-            <li key={id}>
+            <li key={id} className="sm:flex">
               <Card id={id} {...rest} />
             </li>
           ))}
