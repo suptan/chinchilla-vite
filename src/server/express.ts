@@ -3,7 +3,8 @@ import axios from "axios";
 import * as cheerio from "cheerio";
 import { Shop } from "./constants";
 import { fetchWisteriaDetail } from "./services/wisteria";
-import { mockFetchKojima } from "./services/kojima";
+import { fetchKojimaDetail } from "./services/kojima";
+// import { mockFetchKojima } from "./services/kojima";
 // import { landpage } from "./landpage";
 // import { chi1 } from './chi1';
 // import { chi2 } from './chi2';
@@ -47,32 +48,32 @@ async function searchWisteria(pages: string) {
 
 async function searchKojima(page = '1') {
   const pageUrl = `https://pets-kojima.com/small_list/?topics_group_id=4&group=6&breed=&shop%5B0%5D=&freeword=&price_bottom=&price_upper=&order_type=2&pageID=${page}`
-  console.log('url', pageUrl);
+  // console.log('url', pageUrl);
 
-  // const pageHTML = await axios.get(pageUrl)
-  // const $ = cheerio.load(pageHTML.data)
+  const pageHTML = await axios.get(pageUrl)
+  const $ = cheerio.load(pageHTML.data)
   
-  // if ($('#page_notfound').length) {
-  //   return {
-  //     code: 404,
-  //     status: 'failed',
-  //     data:'Not Found',
-  //   }
-  // }
+  if ($('#page_notfound').length) {
+    return {
+      code: 404,
+      status: 'failed',
+      data:'Not Found',
+    }
+  }
 
-  // const detailURLs = $("#topics_list4 li").map((_, element) => $(element).children().attr("data-calink"))
+  const detailURLs = $("#topics_list4 li").map((_, element) => $(element).children().attr("data-calink"))
 
   return {
     status: 'succeess',
-    data: Array(2).fill('').map(mockFetchKojima),
-    // data: await Promise.all(detailURLs.map((_, ele) => fetchKojimaDetail(ele))),
+    // data: Array(2).fill('').map(mockFetchKojima),
+    data: await Promise.all(detailURLs.map((_, ele) => fetchKojimaDetail(ele))),
   } 
 }
 
 router.get("/products", async function(req: ProductsRequest, res) {
-  console.log("method", req.method, req.params, req.query);
+  // console.log("method", req.method, req.params, req.query);
   const { pages, shop } = req.query
-  console.log('shop', shop, shop === Shop.KOJIMA);
+  // console.log('shop', shop, shop === Shop.KOJIMA);
   
 
   try {
@@ -83,9 +84,10 @@ router.get("/products", async function(req: ProductsRequest, res) {
         break;
       case Shop.KOJIMA:
         body = await searchKojima(pages)
-        console.log('body',body);
+        // console.log('body',body);
         break;
       default:
+        throw new Error('Bad Request')
         break;
     }
     res.send(body);
