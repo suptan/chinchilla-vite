@@ -49,7 +49,7 @@ function Card({ album, birthday, displayPrice, gender, title, source }: CardProp
             <span aria-label="birthday">
               🎂
               <br />
-              {birthday}
+              {birthday || "ー"}
             </span>
             <span aria-label="price">
               💰

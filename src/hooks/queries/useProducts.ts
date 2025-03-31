@@ -1,6 +1,7 @@
 import { useInfiniteQuery } from "@tanstack/react-query"
 import axios from "axios"
 import { NUMERIC_REGEXP } from "../../utils/regex"
+import { useParams } from "react-router-dom"
 
 interface ApiResponse<T> {
   status: string
@@ -9,9 +10,9 @@ interface ApiResponse<T> {
 
 export interface ProductResponse {
   album: { src: string }[]
-  birthday: string
-  color: string
-  gender: string
+  birthday?: string
+  color?: string
+  gender?: string
   id: number
   price: string
   source: string
@@ -26,13 +27,17 @@ export interface Product extends Omit<ProductResponse, 'updatedAt'> {
 }
 
 export const productsKeys = {
-    all: ['products'] as const
+    all: ['products'] as const,
+    listAll: () => [...productsKeys.all, 'list'] as const,
+    list: (filters: any) => [...productsKeys.listAll(), { filters }] as const,
 }
 
 export function useProducts() {
+  const {shop} = useParams();
+
   return useInfiniteQuery({
     queryKey: productsKeys.all,
-    queryFn: ({ signal, pageParam }) =>  axios.get<ApiResponse<ProductResponse[]>>('/api/v1/products', { signal, params: { pages: pageParam } }),
+    queryFn: ({ signal, pageParam }) =>  axios.get<ApiResponse<ProductResponse[]>>('/api/v1/products', { signal, params: { pages: pageParam, shop } }),
     initialPageParam: 0,
     getNextPageParam: (lastPage, allPages) => {
       return lastPage.data.data.length ? allPages.length + 1 : undefined;
